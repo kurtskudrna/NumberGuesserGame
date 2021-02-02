@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(196, 0, 0);
+    color: white;
+    font-family:
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.speech {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.input {
+    border: 1px solid white;
+    box-shadow: 5px 10px black;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+}
+
+.replay {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 10px black;
+    color:white;
+    background-color:  rgb(196, 0, 0);
+    padding: 5px;
+}
